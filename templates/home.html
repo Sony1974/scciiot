@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+<!-- ========================= SECTION MAIN ========================= -->
+<!-- <section class="section-intro padding-y-sm"> -->
+    <div class="container">
+    
+        <div class="intro-banner-wrap">
+            <img src="{% static 'img/banners/cables.png' %}" class="banner-content">
+        </div>
+    
+    </div> <!-- container //  -->
+<!-- </section> -->
+<!-- ========================= SECTION MAIN END// ========================= -->
+
+
+    
+    <div class="jumbotron" >
+        <h2>SCCIIoT </h2>
+        <p> SCCIIoT is an AI based Predictive Maintenance Project using IIOT</p>        
+    </div>
+
+</body>
+
+{% endblock content %}
+</html>

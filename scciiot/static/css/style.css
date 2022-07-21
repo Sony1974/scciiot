@@ -1,0 +1,60 @@
+
+/* CSS File for Notificatations */
+
+.heading h2{
+color: #55a0eb;
+}
+
+.heading p {
+    color: #eb8d55;
+}
+
+.heading hr {
+    color: #eb8d55;
+}
+
+.data_table {
+    padding-top: 30px;
+}
+
+.chart {
+    padding-top: 30px;
+}
+
+
+
+th,td{
+border: 1px black solid; 
+padding-left:10px;
+padding-right:10px;
+}
+
+th{
+background-color:#eb8d55;
+}
+
+td {
+width: 100px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+background-color: #D3D3D3;
+}
+
+tr:nth-child(odd) {
+background-color: #D3D3D3;
+}
+
+.designed_by {
+    color: #eb8d55;
+    padding-top: 20px;
+    
+}
+
+#table_01 {
+    width:100%;
+}
+
+
+
+
